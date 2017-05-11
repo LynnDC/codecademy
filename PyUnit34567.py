@@ -63,6 +63,7 @@ def compute_bill(food):
             total += prices[item]
             stock[item] = stock[item] -1
     return total
+
 #Unit 6: Student Becomes the Teacher - part 9
 lloyd = {
     "name": "Lloyd",
@@ -83,7 +84,6 @@ tyler = {
     "tests": [100.0, 100.0]
 }
 
-# Add your function below!
 def average(numbers):
     total = sum(numbers)
     average = float(total)/len(numbers)
