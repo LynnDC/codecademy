@@ -115,6 +115,7 @@ def get_class_average(students):
     return average(results)
 print get_class_average(students)
 print get_letter_grade(get_class_average(students))
+
 #Unit 7: Battleship! - part 18
 from random import randint
 
@@ -141,8 +142,6 @@ ship_col = random_col(board)
 print ship_row
 print ship_col
 
-# Everything from here on should go in your for loop!
-# Be sure to indent four spaces!
 for turn in range(4):
     print "Turn", turn + 1
 
